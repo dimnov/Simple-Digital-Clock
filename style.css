@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  justify-content: center;
+  background: var(--primary-color);
+  overflow: hidden;
+  color: #fff;
+}
+
+:root {
+  --primary-color: #264653;
+  --secondary-color: #2a9d8f;
+}
+
+.different-color{
+  --primary-color: #2e3532;
+  --secondary-color: #8b2635;
+}
+
+.clock {
+ display: flex;
+}
+
+.clock div{
+  margin: 4px;
+}
+
+.clock span {
+  width: 100px;
+  height: 90px;
+  border-radius: 6px;
+  margin-top: 4px;
+  background: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.clock .text {
+  height: 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.clock #ampm {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  background: var(--secondary-color);
+  margin-top: 4px;
+
+}
+
+.clock #btn {
+  padding: 0px;
+  margin-top: 4px;
+  position: relative;
+  width: 62px;
+  height: 30px;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background: var(--secondary-color);
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 6px;
+  border-width: 0px;
+}
